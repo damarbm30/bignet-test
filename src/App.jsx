@@ -16,9 +16,10 @@ function App() {
   return (
     <main className="py-4">
       <div className="text-center text-3xl font-extrabold">POSTS</div>
-      <div className="w-full flex justify-center">
-        <a href="https://jsonplaceholder.typicode.com/posts" className="text-blue-500 my-4">
-          Source: https://jsonplaceholder.typicode.com/posts
+      <div className="w-full flex items-center gap-x-2 justify-center">
+        <p>Source:</p>
+        <a href="https://jsonplaceholder.typicode.com/posts" className="text-blue-500 my-4" target="_blank">
+          https://jsonplaceholder.typicode.com/posts
         </a>
       </div>
       <ul className="grid xl:grid-cols-3 md:grid-cols-2 max-w-[640px] lg:max-w-[1200px] xl:max-w-[1600px] mx-auto gap-4">
